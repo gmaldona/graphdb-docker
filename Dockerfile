@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-alpine
+FROM arm64v8/eclipse-temurin:21-jdk-alpine 
 
 # Build time arguments
 ARG version=10.2.2
